@@ -415,9 +415,9 @@
 </svg>
 
 <script>
-var seeder = "804992122662873317801135640189619153103004263824941590947396127400552588345345"; 
+const seeder1 = window.location.search;
 
-var chance1 = new Chance(seeder);
+var chance1 = new Chance(seeder1);
 
 var order = chance1.pickset(["A","B","C","D","E","F","G","H","I","J"], 10);
 
